@@ -4,7 +4,7 @@ import Link from 'next/link';
 import styles from '@/app/ui/home.module.css'; // ✅ Import the styles
 import { lusitana } from '@/app/ui/fonts';
 import Image from 'next/image'; // ✅ Import Image
-
+export const dynamic = "force-dynamic";
 export default function Page() {
   return (
     <main className="flex min-h-screen flex-col p-6">
